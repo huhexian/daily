@@ -211,11 +211,6 @@ def main():
     if TIAN_API_KEY is not None and TIAN_API_KEY != '':
         MESSAGES.append(make_quota(TIAN_API_KEY))
     # --------
-    # --------
-    # Optional process - 每日待办事项 todoist
-    if TODOIST_API is not None and TODOIST_API != '':
-        MESSAGES.append(make_todoist(TODOIST_API))
-    # --------
 
     # Build full content and send to TG
     full_message = make_message(MESSAGES)
