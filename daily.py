@@ -35,8 +35,6 @@ WEATHER_CITY_CODE = os.environ.get('WEATHER_CITY_CODE', '101210101')
 TIAN_API_KEY = os.environ.get('TIAN_API_KEY', '')
 # Bing Cookie if image to be generated from Dalle3. Leave empty to use OpenAI by default
 BING_COOKIE = os.environ.get('BING_COOKIE', '')
-# 每日待办事项 todoist
-TODOIST_API = os.environ.get('TODOIST_API', '')
 # -------------
 
 # Message list
